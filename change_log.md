@@ -8,6 +8,10 @@ Format: `Date — Decision — Rationale — Owner`
 
 ---
 
+**2026-08-08** — Added a standing authorization to `CLAUDE.md`'s Working Notes: commit and push to GitHub going forward, not just save locally, at natural task-completion checkpoints rather than every edit — **Rationale:** user confirmed this as a durable preference, not a one-time approval; encoded it so it persists across sessions instead of only applying to this conversation — **Owner:** me
+
+---
+
 **2026-08-08** — Published the workspace to GitHub: [github.com/fnajam325/cc4pm-workspace](https://github.com/fnajam325/cc4pm-workspace) (public). First checked git state and found the existing repo was rooted at the home directory (`/Users/faran`), not this project — initialized a fresh, separately-scoped repo inside `cc4pm_workspace_august/` instead of reusing it, to avoid any risk of exposing unrelated files. Added `.DS_Store` to `.gitignore` before the initial commit. Reviewed the full staged file list before committing — confirmed individual stakeholder profiles stayed excluded (only `TEMPLATE.md` tracked), no secrets or credential files present — **Rationale:** user asked to publish; the home-directory repo finding was a real risk worth stopping for rather than pushing from an unscoped repo — **Owner:** me
 
 ---
