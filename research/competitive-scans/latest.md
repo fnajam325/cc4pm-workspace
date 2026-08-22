@@ -1,0 +1,74 @@
+*This file always mirrors the most recent dated scan in this folder. Run date: 2026-08-08 — see [2026-08-08.md](2026-08-08.md) for the permanent snapshot, or [README.md](README.md) for the full run index.*
+
+# Competitive Landscape — Spending Insights, Budgeting & Habit Building
+
+*Prepared for: Engage v2 discovery cycle*
+*Scope: apps centered on spending insights, budgeting, and financial habit-building after account connection. Excludes primarily banking, investing, or credit-monitoring products.*
+*Note: fictional course scenario — Nudge itself is fictional; the competitors and research below are real, current market data (August 2026).*
+
+## Competitors
+
+### 1. YNAB (You Need A Budget)
+
+- **Core features:** Zero-based envelope budgeting built on four rules (give every dollar a job, embrace true expenses, roll with the punches, live on last month's income). Positions itself as a "behavior change" tool, not a tracker.
+- **Pricing:** $14.99/mo or $109/yr, 34-day free trial. Annual plan includes Family Share (up to 6 people). Free for students with a .edu email for 12 months.
+- **Target customer:** Highly motivated budgeters willing to do manual, active weekly work — reports new users save ~$600 in the first two months.
+- **Post-connection engagement:** Entirely push/active — the method *requires* weekly manual engagement to deliver value. No passive insight layer; value is proportional to user discipline.
+- **Notable recent changes:** No major model change reported; pricing and structure stable into 2026. Continues to lean on its behavior-change positioning rather than automation.
+
+### 2. Copilot Money
+
+- **Core features:** AI-driven auto-categorization, spending trend tracking, investment monitoring, category rollover budgeting, and a "Rebalancing" feature that reallocates budget categories based on actual behavior over time.
+- **Pricing:** $95/yr ($7.92/mo) annual or $13/mo monthly, 1-month free trial, demo mode available pre-connection.
+- **Target customer:** Apple-native users (historically iOS/Mac only) who want a passive, design-forward experience over manual budgeting.
+- **Post-connection engagement:** Passive-first — AI surfaces insights and adjusts budgets automatically rather than asking users to act. Engagement compounds slowly as "Rebalancing" improves accuracy over time.
+- **Notable recent changes:** Added web app access in December 2025 (previously Apple-only). Beta-testing "Money Assistant" for longer-term planning insights, not yet fully rolled out. App Store rating ~4.8/5 (~24K ratings); complaints center on sync bugs and multi-user/couples budgeting friction, not personalization.
+
+### 3. Rocket Money
+
+- **Core features:** Recurring-charge/subscription detection across linked accounts, in-app subscription cancellation, real-time category-limit notifications, weekly spending summaries, credit monitoring (free tier).
+- **Pricing:** Free tier (basic budgeting, subscription tracking, credit monitoring) + "choose your price" Premium (~$7-14/mo). Separate bill-negotiation service charges 35-60% of first-year savings, contingent on success.
+- **Target customer:** Mass-market users motivated primarily by immediate savings/cost-cutting rather than budgeting discipline. Reports 10M+ users.
+- **Post-connection engagement:** Notification-driven — real-time alerts and weekly summaries, but the core hook (finding and cancelling subscriptions) is largely a one-time value event rather than a sustained loop.
+- **Notable recent changes:** ~4.5-4.6 stars on Apple/Google Play, but only ~3.3/5 on Trustpilot — a large gap between first-impression app store reviews and post-billing experience. Recurring complaints: undisclosed bill-negotiation charges, difficult cancellation, continued billing after cancellation attempts.
+
+### 4. Monarch Money
+
+- **Core features:** Unified dashboard across accounts/investments/loans, net worth tracking, household/couples sharing, goals tracking, AI Assistant for plain-language Q&A about finances.
+- **Pricing:** Two tiers — Monarch Core ($14.99/mo or $99.99/yr) and the new Monarch Plus ($199/yr, launched April 2026) targeting "optimizers" with advanced forecasting, business/rental income tracking, and Morningstar-powered investment analysis. No free tier (7-day trial requires payment info upfront).
+- **Target customer:** Former Mint users and couples/households wanting a comprehensive, premium single dashboard.
+- **Post-connection engagement:** Primarily passive/reactive — AI Assistant answers questions when asked; "Winter Release" added reimagined goals, equity tracking, and receipt scanning, but engagement is largely user-initiated rather than proactively surfaced.
+- **Notable recent changes:** Aggressive tier/feature expansion in 2026 (Monarch Plus launch, Winter Release AI Assistant, goals, receipt scanning). Named to Fast Company's Most Innovative Companies and Forbes Fintech 50 for 2026 — strong momentum, but no free tier remains a recurring objection in reviews.
+
+## Comparison Matrix
+
+| | YNAB | Copilot Money | Rocket Money | Monarch Money |
+|---|---|---|---|---|
+| **Pricing** | $14.99/mo or $109/yr | $13/mo or $95/yr | Free + "choose your price" Premium (~$7-14/mo) | $14.99/mo or $99.99/yr (Core); $199/yr (Plus) |
+| **Target customer** | Disciplined, motivated budgeters | Apple-native, design-conscious passive users | Mass-market, savings/cost-cutting motivated | Former Mint users, couples, comprehensive-dashboard seekers |
+| **Engagement model** | Active/push — weekly manual work required | Passive/pull — AI adjusts and surfaces over time | Notification-driven, but hook is largely one-time | Reactive/pull — AI Q&A, user-initiated |
+| **Personalization mechanism** | None — user does the work manually | Behavioral rebalancing (compounds slowly) | Real-time category alerts | AI Assistant answers on request |
+| **Free tier** | No | No | Yes | No |
+| **2026 momentum** | Stable, no major changes | Web access added, AI "Money Assistant" in beta | Reputation gap between app store (4.5★) and Trustpilot (3.3★) over billing practices | Aggressive expansion: new premium tier, AI Assistant, new features |
+
+## White Space: 2 Gaps None of Them Own Well
+
+**1. No one delivers an early, proactively-surfaced personalized insight — payoff is either slow or entirely on-demand.**
+YNAB's value depends on weeks of manual discipline. Copilot's behavioral rebalancing "improves accuracy over time" — a slow build, not a week-1 moment. Monarch's AI Assistant is Q&A-driven — it only surfaces something if the user thinks to ask. Rocket Money's core hook (subscription discovery) is a one-time event, not a recurring personalized signal. None of them proactively hand a user something specific and true about their own behavior early — which is exactly what created durable stickiness in Nudge's own user research, just too slowly. This is the gap Engage v2's "early lightweight personalization" hypothesis would occupy uncontested.
+
+**2. No one bridges passive insight and active goal-accountability in a single loop.**
+The market splits cleanly into active/manual (YNAB) and passive/reactive (Copilot, Monarch) — with Rocket Money's engagement being transactional rather than either. None combine "here's a pattern in your behavior" with "here's what to do about it, tied to the goal you actually set" as one continuous, low-effort loop. This maps directly to Nudge's own research: users want more than reporting (want a "next step") but punish irrelevant pushes harshly, and stated goals frequently go unacknowledged even in competitor tools (Monarch has goals as a feature, but engagement around them is reactive, not proactively tied to accumulating insight). A closed-loop system — passive insight in, proactive relevant nudge out, tied to a specific goal — is white space none of the four currently own.
+
+## Sources
+
+- [YNAB Review 2026: Is You Need a Budget Worth $14.99 a Month?](https://www.thepennyhoarder.com/budgeting/ynab-review/)
+- [YNAB Pricing 2026: Real Cost + 5 Cheaper Alternatives](https://www.planandmultiply.com/en/blog/ynab-pricing-2026-plans-features-alternatives)
+- [Copilot Money Budget App Review 2026 – Forbes Advisor](https://www.forbes.com/advisor/banking/copilot-budget-app-review/)
+- [Copilot Money Review 2026: Honest Verdict](https://ladabo.com/ai-budgeting-apps/copilot-money-review/)
+- [Copilot: Track & Budget Money - App Store](https://apps.apple.com/us/app/copilot-track-budget-money/id1447330651)
+- [Rocket Money Review 2026: Is It Legit, Safe and Worth the Cost?](https://www.thepennyhoarder.com/budgeting/rocket-money-review/)
+- [Rocket Money Reviews and Ratings (2026)](https://usa.inquirer.net/166883/rocket-money-reviews-and-ratings)
+- [Rocket Money Reviews 2026: What Users Really Think](https://checkthat.ai/brands/rocket-money/reviews)
+- [Monarch Money Review 2026: Pricing, Features, Safety & Is It Worth It?](https://www.thepennyhoarder.com/budgeting/monarch-money-review/)
+- [Monarch launches premium tier, Monarch Plus](https://www.prnewswire.com/news-releases/monarch-launches-premium-tier-monarch-plus-302748653.html)
+- [Introducing our Winter Release | Monarch](https://www.monarch.com/blog/winter-release)

@@ -1,0 +1,10 @@
+{
+  "name": "write-prd",
+  "description": "Writes a PRD using the Nudge Engage v2 project's established structure — Problem Statement, User, Goals/Non-Goals, Success Metrics, Requirements with a tracked User Stories table, Supporting Evidence, Key Edge Cases, Open Questions, Next Steps, and a source-trail Appendix.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Faran"
+  },
+  "homepage": "",
+  "keywords": ["prd", "product-management", "spec"]
+}

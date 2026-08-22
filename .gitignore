@@ -1,0 +1,12 @@
+# Stakeholder profiles — internal prep notes, not for sharing
+# (TEMPLATE.md is the exception: a blank template with no real content, kept tracked
+# so new users of this workspace have a starting point)
+stakeholders/*
+!stakeholders/TEMPLATE.md
+
+# npm artifacts from build-scripts/ — never check these in
+node_modules/
+package-lock.json
+
+# macOS
+.DS_Store
