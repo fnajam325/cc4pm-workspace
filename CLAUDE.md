@@ -39,6 +39,7 @@ When to bring Marcus a full-rollout recommendation. Gated on (1) day-30 retentio
 **Data & Experiment Results**
 - [data/metric-findings.md](data/metric-findings.md) — SQL analysis of the week-5 weekly-summary experiment (retention, goal-setting, open rates)
 - [data/metric-diagnosis.md](data/metric-diagnosis.md) — retention metric tree, root-cause diagnosis of the weeks 1-4 decline, and 4 ranked/confidence-scored churn hypotheses
+- [agents/monday-retention.md](agents/monday-retention.md) — spec for the Monday-morning retention digest agent (data source, comparison logic, Slack template, manual-run + production deployment notes); [agents/monday_retention.py](agents/monday_retention.py) is the runnable script
 
 **Decision & Delivery Artifacts**
 - [docs/decision-brief.md](docs/decision-brief.md) — 1-page decision brief for Marcus, synthesized from all discovery inputs

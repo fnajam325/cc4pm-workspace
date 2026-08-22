@@ -8,6 +8,10 @@ Format: `Date — Decision — Rationale — Owner`
 
 ---
 
+**2026-08-22** — Built the Monday retention digest agent: [agents/monday_retention.py](agents/monday_retention.py) (runnable script, pulls live data from the public Nudge sheet) + [agents/monday-retention.md](agents/monday-retention.md) (spec: comparison logic, Slack template, manual-run instructions, production deployment options). Verified against real data — script output cross-checked exactly against `data/metric-findings.md`'s retention numbers. Documented the "last week" caveat explicitly: this static dataset only supports comparing the two most recent `cohort_week`s, not a true rolling 7-day window. Slack posting is implemented but gated behind `SLACK_WEBHOOK_URL` — no webhook is configured in this environment, so it prints an honest fallback rather than fabricating a send. Not yet scheduled to actually run — stays a manual script until cron/n8n/a timer is set up — **Rationale:** user asked for a Monday-morning pre-standup digest agent; kept it consistent with this project's real-data and never-fabricate discipline (evidence-ledger.md) rather than mocking a Slack post or a live rolling window that doesn't exist in this dataset — **Owner:** me
+
+---
+
 **2026-08-08** — Added a standing authorization to `CLAUDE.md`'s Working Notes: commit and push to GitHub going forward, not just save locally, at natural task-completion checkpoints rather than every edit — **Rationale:** user confirmed this as a durable preference, not a one-time approval; encoded it so it persists across sessions instead of only applying to this conversation — **Owner:** me
 
 ---
